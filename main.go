@@ -10,6 +10,7 @@ import (
 	"github.com/jannes-io/aoc2025/pkg/day3"
 	"github.com/jannes-io/aoc2025/pkg/day4"
 	"github.com/jannes-io/aoc2025/pkg/day5"
+	"github.com/jannes-io/aoc2025/pkg/day6"
 	"github.com/jannes-io/aoc2025/pkg/f"
 )
 
@@ -50,6 +51,10 @@ func main() {
 		5: {
 			1: day5.Part1,
 			2: day5.Part2,
+		},
+		6: {
+			1: day6.Part1,
+			2: day6.Part2,
 		},
 	}
 	result := days[day][part](string(input))
